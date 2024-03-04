@@ -1,10 +1,11 @@
 import Chai from './Chai.jsx'
 
+let name = "Abhinav"
 function App() {
 
   return (  
     <>
-      <h1>Day 1 of Learning react with HC sir</h1>
+      <h1>Day 1 of Learning react with HC sir | {name}</h1>
       <Chai/>
     </>
   )
