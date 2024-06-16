@@ -14,6 +14,8 @@ npm run dev
 ```
 
 `npm create vite@latest`
+<br>
 `npm install` / `npm i`
+<br>
 `npm run dev`
 
