@@ -14,7 +14,9 @@ function App() {
     // setCounter(count)  
   }
   const decrement = () => {
-    setCounter(count-1);
+    if(count>0){
+      setCounter(count-1);
+    }
   }
   return (
     <>
