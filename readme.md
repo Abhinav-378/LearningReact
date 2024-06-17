@@ -13,9 +13,31 @@ npm install` / `npm
 npm run dev
 ```
 
-`npm create vite@latest`
-<br>
-`npm install` / `npm i`
-<br>
-`npm run dev`
+**Tailwind with vite**
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
 
+**tailwind.config.js**
+```
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+**index.css**
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
